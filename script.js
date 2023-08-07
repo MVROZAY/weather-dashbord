@@ -1,4 +1,4 @@
-const apiKey = 'd60f529ec14e8ae7ac411571fac52c10';
+const apiKey = process.env.API_KEY;
 const searchForm = document.getElementById('search-form');
 const cityInput = document.getElementById('city-input');
 const searchHistory = document.getElementById('search-history');
